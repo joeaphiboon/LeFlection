@@ -31,6 +31,7 @@ def get_reflections_df():
     return pd.DataFrame(reflections)
 
 st.title('Learning Reflection App')
+st.write(":blue_heart: **by JTIAPBN.Ai**")
 
 # Input form
 st.header('Add a New Reflection')
